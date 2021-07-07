@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title_form_student{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.container_student{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 5rem;
+    width: 75rem;
+}
+.form_student{
+    flex-grow: 2;
+    margin-right: 2rem;
+}
+
+.form_student label,input,button{
+    display: flex;
+    margin: 1rem;
+    width: 100%;
+}
+
+.table_student{
+    flex-grow: 3;
+    margin-left: 2rem;
+}
+
+.table_student a{
+    margin: 2px;
+    width: 75%;
+}
+
+.form_student_edit{
+    width: 30rem;
+}
+
+
